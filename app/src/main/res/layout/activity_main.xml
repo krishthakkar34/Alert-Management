@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    android:background="@drawable/backgroud2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:paddingBottom="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name:"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/textInputLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last Name:"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/textInputEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/textInputMobileNo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mobile No:"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/textInputUsername"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Username:"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/textInputPin"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Pin:"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"/>
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/textInputConfirmPin"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:text="Confirm Pin:"
+                                    android:textColor="@color/black"
+                                    android:textStyle="bold"/>
+
+                                <CheckBox
+                                    android:id="@+id/checkBox"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="I Agree Term And Condition"
+                                    android:textStyle="bold"
+                                    android:textSize="15dp" />
+                                
+                                <Button
+                                    android:id="@+id/button"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="20dp"
+                                    android:text="Signup"
+                                    android:textStyle="bold"
+                                    android:layout_gravity="center"/>
+                                <!-- create a link-->
+                                <TextView
+                                    android:id="@+id/textViewSignup"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_margin="10dp"
+                                    android:text="Already Have An Account?  Login"
+                                    android:clickable="true"
+                                    android:textStyle="bold" />
+                            </com.google.android.material.textfield.TextInputLayout>
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
+                </com.google.android.material.textfield.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</LinearLayout>
